@@ -3,6 +3,6 @@ import { notes } from './notes.js';
 
 const api = express();
 
-api.use('/notes.js', notes);
+api.use('/notes', notes);
 
 export { api };
